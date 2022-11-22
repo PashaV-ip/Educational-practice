@@ -58,6 +58,7 @@
         android:paddingHorizontal="60dp"
         android:textSize="20dp"
         android:text="Справка"
+        android:onClick="onClickButtons"
         android:background="@drawable/style_buttons_on_main_menu"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"

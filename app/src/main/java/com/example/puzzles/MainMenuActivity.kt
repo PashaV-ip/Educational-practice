@@ -19,6 +19,11 @@ class MainMenuActivity : AppCompatActivity() {
                 intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
                 startActivity(intent)
             }
+            R.id.infoButton -> {
+                val intent : Intent = Intent(this@MainMenuActivity, ReferenceActivity::class.java)
+                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
+                startActivity(intent)
+            }
         }
     }
 }

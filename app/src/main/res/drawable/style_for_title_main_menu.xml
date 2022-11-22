@@ -6,7 +6,7 @@
         android:centerColor="@color/forestGreen"
         android:endColor="@color/darkGreen"
         android:startColor="@color/limeGreen"/>-->
-    <solid android:color="@color/teal_700"/>
+    <solid android:color="@color/purple_500"/>
     <padding
         android:top="5dp"
         android:right="5dp"
